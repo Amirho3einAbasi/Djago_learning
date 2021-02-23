@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="{{object.image.url}}">
+      <div class="caption">
+<!--          <a href="/products-detail/{{item.id}}">-->
+          <a href="/products-slug/{{item.slug}}">
+              <img src="{{item.image.url}}" width="400x" height="400x">
+          </a>
+
+        <h3>{{item.title}}</h3>
+          <p>{{item.description}}</p>
+        <p>{{item.price}}</p>
+        <p><a href="#" class="btn btn-primary" role="button">خرید</a> <a href="http://127.0.0.1:8000/" class="btn btn- block" role="button">خروج</a></p>
+      </div>
+    </div>
+  </div>
+</div>

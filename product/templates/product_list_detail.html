@@ -1,0 +1,22 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block content%}
+    <p>
+        <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="{{product.image.url}}" alt="image">
+      <div class="caption">
+        <h3>{{product.title}}</h3>
+          <p>{{product.description}}</p>
+        <p >{{product.price}}</p>
+
+        <p> <a  href="#"  class="btn btn-primary" role="button"  >خرید</a>
+            <a href="http://127.0.0.1:8000/" class="btn btn- block" role="button">خروج</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+    </p>
+{%endblock%}
